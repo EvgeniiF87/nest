@@ -7,9 +7,9 @@ export const ormconfig: TypeOrmModuleAsyncOptions = {
   useFactory: async (config: ConfigService) => ({
     type: 'postgres',
     host: config.get('TYPEORM_HOST'),
-    username: config.get('TYPEORM_USERNAME'),
-    password: config.get('TYPEORM_PASSWORD'),
-    database: config.get('TYPEORM_DATABASE'),
+    username: config.get('FAKE_USERNAME'),
+    password: config.get('FAKE_PASSWORD'),
+    database: config.get('FAKE_DATABASE'),
     port: config.get('TYPEORM_PORT'),
     entities: [__dirname + 'src/**/*.entity{.ts,.js}'],
     synchronize: false,

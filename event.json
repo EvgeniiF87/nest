@@ -1,0 +1,87 @@
+{
+  "data": {
+    "event": {
+      "id": "19",
+      "title": "within leading aha geranium before busily perch lipoprotein email immediately",
+      "info": {
+        "adress": "Idaho, 177 Deckow Loop",
+        "call_back": false,
+        "eventId": 19,
+        "id": "19",
+        "latitude": "-13.271",
+        "longitude": "35.3351",
+        "metro": "Renner Shoal",
+        "phone": null,
+        "placeId": null,
+        "site": null,
+        "social": null,
+        "time_from": "10:00",
+        "time_to": "22:00"
+      },
+      "images": [
+        "http://78.24.180.193:7777/uploads/6245e043-c93f-4619-97b8-eab4c1713c4f.jpg",
+        "http://78.24.180.193:7777/uploads/6245e043-c93f-4619-97b8-eab4c1713c4f.jpg",
+        "http://78.24.180.193:7777/uploads/6245e043-c93f-4619-97b8-eab4c1713c4f.jpg",
+        "http://78.24.180.193:7777/uploads/6245e043-c93f-4619-97b8-eab4c1713c4f.jpg",
+        "http://78.24.180.193:7777/uploads/6245e043-c93f-4619-97b8-eab4c1713c4f.jpg",
+        "http://78.24.180.193:7777/uploads/6245e043-c93f-4619-97b8-eab4c1713c4f.jpg"
+      ],
+      "tags": [
+        {
+          "id": "25",
+          "name": "есть где переночевать"
+        },
+        {
+          "id": "17",
+          "name": "окраина"
+        },
+        {
+          "id": "21",
+          "name": "возможен пикник"
+        },
+        {
+          "id": "20",
+          "name": "далеко от населенных пунктов"
+        },
+        {
+          "id": "9",
+          "name": "актуально осенью"
+        },
+        {
+          "id": "5",
+          "name": "загород"
+        },
+        {
+          "id": "7",
+          "name": "в городе"
+        },
+        {
+          "id": "8",
+          "name": "актуально весной"
+        },
+        {
+          "id": "22",
+          "name": "рядом база"
+        },
+        {
+          "id": "29",
+          "name": "посидеть за ноутбуком"
+        },
+        {
+          "id": "12",
+          "name": "для свиданий"
+        }
+      ],
+      "costOptions": [
+        {
+          "name": "Дети до 3х лет",
+          "price": 1091
+        },
+        {
+          "name": "Дети до 5х лет",
+          "price": 990
+        }
+      ]
+    }
+  }
+}

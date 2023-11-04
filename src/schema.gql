@@ -586,7 +586,7 @@ input SignInInput {
 type TagEntity {
   id: ID!
   name: String!
-  tag: [EventPlaceTagEntity!]!
+  tags: [EventPlaceTagEntity!]!
 }
 
 type TagType {

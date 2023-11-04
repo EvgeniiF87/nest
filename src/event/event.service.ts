@@ -25,13 +25,13 @@ export class EventService {
 
   async findAll(params: RequestEvent) {
     return await this.EventRepository.find({
-      where: [
-        { direction: params?.direction && params.direction },
-        { title: params?.title && Like(`%${params?.title}%`) },
-        { desc: params?.desc && Like(`%${params?.desc}%`) },
-        { tags: { tagsId: params.tagId && params.tagId } },
-        { cityId: params.cityId && params.cityId },
-      ],
+      where: {
+        direction: params?.direction && params.direction,
+        title: params?.title && Like(`%${params.title}%`),
+        desc: params?.desc && Like(`%${params.desc}%`),
+        tags: { tagsId: params?.tagId && params.tagId },
+        cityId: params?.cityId && params.cityId,
+      },
       relations: {
         images: true,
         info: true,

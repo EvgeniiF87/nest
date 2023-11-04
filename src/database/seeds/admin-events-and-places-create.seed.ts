@@ -57,7 +57,7 @@ export default class CreateAdminEventsAndPlaces implements Seeder {
       (direction) => direction,
     );
 
-    const randomCitiesID = await RandomsID(citiesID, { count: 30 });
+    const randomCitiesID = await RandomsID(citiesID, { count: 5 });
 
     for (let i = 0; i < randomCitiesID.length; i++) {
       const cityId = randomCitiesID[i];

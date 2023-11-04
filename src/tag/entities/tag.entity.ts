@@ -15,5 +15,5 @@ export class TagEntity {
 
   @Field(() => [EventPlaceTagEntity])
   @OneToMany(() => EventPlaceTagEntity, (eventPlaceTag) => eventPlaceTag.tags)
-  tag: EventPlaceTagEntity[];
+  tags: EventPlaceTagEntity[];
 }

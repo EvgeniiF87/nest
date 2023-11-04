@@ -28,7 +28,7 @@ export class EventPlaceTagEntity {
   placeId?: number;
 
   @Field(() => TagEntity)
-  @ManyToOne(() => TagEntity, (tag) => tag.tag)
+  @ManyToOne(() => TagEntity, (tag) => tag.tags)
   tags: TagEntity;
 
   @Field(() => Int)
